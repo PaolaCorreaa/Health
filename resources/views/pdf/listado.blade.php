@@ -1,6 +1,7 @@
 @extends('layouts.pdfinicio')
 @section('content')
 <table class="table table-hover table-striped">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <thead>
         <tr>
             <th>Name</th>
