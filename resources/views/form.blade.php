@@ -1,3 +1,4 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 <div class="form-group">
 {{Form::label('name','Nombre')}}
 {{Form::text('name',null,['class'=>'form-control'])}}
