@@ -2,7 +2,7 @@
 @section('title', 'Trainers')
 @section('content') 
 @csrf
-
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
            <h5 class="text-center">{{$trainer->name}} {{$trainer->apellido}}</h5>
            <h5 class="text-center">{{$trainer->email}}</h5>
            <div class="text-center">
